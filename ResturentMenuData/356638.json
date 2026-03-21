@@ -1,0 +1,986 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                        "text": "Delights by INOX",
+                        "headerStyling": {
+                            "textColor": "text_Highest_Emphasis",
+                            "textVariant": "header_H3_Black"
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+                        "tabs": [
+                            {
+                                "id": "Order Online",
+                                "title": "Order Online"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "356638",
+                            "name": "Delights by INOX",
+                            "city": "Kolkata",
+                            "slugs": {
+                                "restaurant": "inox-5-jawaharlal-nehru-road-esplanade",
+                                "city": "kolkata"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "b857fcf611707fedd3773eb02688f925",
+                            "locality": "5 Jawaharlal Nehru Road",
+                            "areaName": "Taltala",
+                            "costForTwo": "40000",
+                            "costForTwoMessage": "₹400 for two",
+                            "cuisines": [
+                                "Snacks"
+                            ],
+                            "avgRating": 4.4,
+                            "feeDetails": {
+                                "restaurantId": "356638",
+                                "fees": [
+                                    {}
+                                ]
+                            },
+                            "parentId": "385095",
+                            "avgRatingString": "4.4",
+                            "totalRatingsString": "151 ratings",
+                            "sla": {
+                                "restaurantId": "356638",
+                                "deliveryTime": 38,
+                                "minDeliveryTime": 35,
+                                "maxDeliveryTime": 40,
+                                "lastMileTravel": 2.1,
+                                "serviceability": "SERVICEABLE",
+                                "stressFactor": 1,
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                "zoneId": 148,
+                                "slaString": "35-40 MINS",
+                                "lastMileTravelString": "2.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2026-03-22 01:00:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "header": "60% off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "60% off | Use TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Flat ₹200 off on orders above ₹499",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "60% off up to ₹120 | Use code TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Flat ₹200 off on orders above ₹499| Use code CELEBRATION",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "inox-5-jawaharlal-nehru-road-esplanade",
+                            "multiOutlet": true,
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "INOX Leisure Limited , 5 Jawaharlal Nehru Road, Kolkata - 700013"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "Snacks"
+                                }
+                            ],
+                            "totalRatings": 151,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "60% off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "60% off | Use TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Flat ₹200 off on orders above ₹499",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "60% off up to ₹120 | Use code TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Flat ₹200 off on orders above ₹499| Use code CELEBRATION",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "couponDetailsCta": "View coupon details"
+                            },
+                            "type": "F",
+                            "nudgeBanners": [
+                                {
+                                    "minValue": 349,
+                                    "maxValue": 499,
+                                    "priority": 2,
+                                    "couponCode": "CELEBRATIONS",
+                                    "discountInfo": {
+                                        "discountType": "Flat",
+                                        "value": 200
+                                    },
+                                    "lockedMessage": "Add items worth ₹<amount> to save ₹200 | Code CELEBRATIONS",
+                                    "unlockedMessage": "CELEBRATIONS Coupon Unlocked! Use it to save ₹200",
+                                    "logoCtx": {},
+                                    "movComputationType": "MOV_COMPUTATION_TYPE_DISCOUNTED_PRICE"
+                                },
+                                {
+                                    "minValue": 2100,
+                                    "maxValue": 3000,
+                                    "priority": 6,
+                                    "couponCode": "XTRAPARTY",
+                                    "discountInfo": {
+                                        "discountType": "Percentage",
+                                        "value": 20
+                                    },
+                                    "lockedMessage": "Add items worth ₹<amount> to unlock flat 20% off | Code XTRAPARTY",
+                                    "unlockedMessage": "XTRAPARTY Coupon Unlocked! Use it to save flat 20% off",
+                                    "logoCtx": {},
+                                    "movComputationType": "MOV_COMPUTATION_TYPE_DISCOUNTED_PRICE"
+                                }
+                            ],
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/356638"
+                            },
+                            "ratingSlab": "RATING_SLAB_5",
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "hasBestsellerItems": true,
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "22.56421532,88.35179658",
+                            "backgroundImageOverlayInfo": {},
+                            "featuredSectionInfo": {}
+                        },
+                        "analytics": {}
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 5,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "scrollBar": {
+                                "scrollThumbColor": "#E46D47",
+                                "scrollTrackColor": "#e4e4e4",
+                                "width": 54,
+                                "height": 4,
+                                "scrollStyling": {
+                                    "padding": {
+                                        "top": 20,
+                                        "bottom": 20
+                                    }
+                                }
+                            }
+                        },
+                        "id": "offerCollectionWidget",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "60% OFF UPTO ₹120",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "f8749b7e-0007-4049-944d-a9f68f93aa41"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE TRYNEW",
+                                            "description": "ABOVE ₹179",
+                                            "offerType": "offers",
+                                            "restId": "356638",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE TRYNEW"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹200 OFF",
+                                            "offerTag": "FLAT DEAL",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "66e2a083-eee6-48bc-8d9a-b0509ecdfe15"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE CELEBRATIONS",
+                                            "description": "ABOVE ₹499",
+                                            "offerType": "offers",
+                                            "restId": "356638",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE CELEBRATIONS"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT 20% OFF",
+                                            "offerTag": "FLAT DEAL",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "8dbc9f0c-7619-491d-b04f-20ed3755be9b"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE PARTY",
+                                            "description": "ABOVE ₹800",
+                                            "offerType": "offers",
+                                            "restId": "356638",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE PARTY"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "10% OFF UPTO ₹100",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/2/28/ea654f16-3981-4917-b1a6-6fd5be137534_HSBC.png",
+                                            "offerIds": [
+                                                "45172884-dd97-4d0f-9f50-88f4a013856e"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE HSBCFEST",
+                                            "description": "ABOVE ₹749",
+                                            "offerType": "offers",
+                                            "restId": "356638",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/2/28/ea654f16-3981-4917-b1a6-6fd5be137534_HSBC.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE HSBCFEST"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT 20% OFF",
+                                            "offerTag": "FLAT DEAL",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "62a68a4c-0f0e-4ea1-ab08-4d5dcb6df86a"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE XTRAPARTY",
+                                            "description": "ABOVE ₹3000",
+                                            "offerType": "offers",
+                                            "restId": "356638",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE XTRAPARTY"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                },
+                                "loyaltyDiscoverPresentationInfo": {
+                                    "logoCtx": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuTab",
+                        "tabs": [
+                            {
+                                "id": "REGULAR",
+                                "title": "Full Menu",
+                                "selected": true,
+                                "analytics": {},
+                                "selectedImage": "v1594205104/fullMenuActive_qcsdzt.png",
+                                "unselectedImage": "v1594205107/fullMenuInactive_fbdtp2.png"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "topRatedFilter": {
+                                                "attributes": {
+                                                    "displayText": "Ratings 4.0+"
+                                                }
+                                            },
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            },
+                                            "vegFilter": {
+                                                "attributes": {
+                                                    "displayText": "VEG"
+                                                }
+                                            },
+                                            "nonvegFilter": {
+                                                "attributes": {
+                                                    "displayText": "NONVEG"
+                                                }
+                                            }
+                                        },
+                                        "relevance": {
+                                            "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                            "sectionId": "MENU_FILTER_TOGGLE"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Fresh Popcorns",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "158177744",
+                                                            "name": "Large Popcorn Cheese",
+                                                            "category": "Fresh Popcorns",
+                                                            "description": "130 gms. A larger bag of popcorn drizzled generously with cheese for a truly delicious experience in each bite. ",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/25/6e5b31fd-4e8e-424b-b21a-a8405550521a_fdd1b0bf-6e1e-4650-bd5e-982b12c6cd83.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 24900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "33 ratings",
+                                                                    "ratingCountV2": "33"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "92641059",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "158177742",
+                                                            "name": "Regular Popcorn Cheese",
+                                                            "category": "Fresh Popcorns",
+                                                            "description": "90 gms. Freshly popped corn with the flavour of cheese for a truly delicious experience in each bite. ",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/25/54f9087c-0ed0-4b2d-a2e6-148670476cb1_c364dd17-ca44-4f6f-8029-c91495b86a61.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 16900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "92641067",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "158177738",
+                                                            "name": "Large Popcorn Salted",
+                                                            "category": "Fresh Popcorns",
+                                                            "description": "130 gms. A larger tub of fresh popcorn with a delicious balance of salt and butter ensuring a deliciously smooth yet crunchy bite. ",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/25/ab3dbc3a-962f-4724-9cdb-1c573272e031_2638e757-ad05-48b6-81eb-2522dd5d53b3.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.4",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#D9EFEC",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_medium",
+                                                                    "ratingTextColor": "rating_medium",
+                                                                    "ratingCountTextColor": "rating_medium",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "92641063",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "158177736",
+                                                            "name": "Regular Popcorn Salted",
+                                                            "category": "Fresh Popcorns",
+                                                            "description": "90 gms. Regular serving of perfectly salted, freshly popped popcorn. ",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/25/58e01d10-6b67-4e16-a2dc-b0eb9f743687_d514aa4b-0bc7-4a18-a85d-e90d8c0487be.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 14900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "92641070",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2025/2/25/6e5b31fd-4e8e-424b-b21a-a8405550521a_fdd1b0bf-6e1e-4650-bd5e-982b12c6cd83.jpg",
+                                            "categoryId": "36014587"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Match Day Combos",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "158177869",
+                                                            "name": "Cheesy Large Munch Combo",
+                                                            "category": "Match Day Combos",
+                                                            "description": "Popcorn cheese large + doritos nachos large served with cheese dip and salsa",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/14/7aff66ae-5b46-4755-b67b-fd74c6477d10_d68694c9-158a-443e-9fce-ae2284f4ff4c.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 41800,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "92641055",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "158177867",
+                                                            "name": "Salty Large Munch Combo",
+                                                            "category": "Match Day Combos",
+                                                            "description": "Popcorn salted large + nachos large served with cheese dip and salsa",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/14/4394fb73-6916-4b7a-ad1e-0d8ec19bf97a_625044a5-c7f8-47f8-9c34-1560c03faa53.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 35800,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "92641072",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "158177857",
+                                                            "name": "Cheesy Regular Munch Combo",
+                                                            "category": "Match Day Combos",
+                                                            "description": "Popcorn cheese regular + doritos nachos large served with cheese dip and salsa",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/14/d347588f-6722-497d-8f81-07a7693083b2_5b9193ed-83ee-452e-b2eb-067f261f3c06.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 33800,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.0",
+                                                                    "ratingCount": "1 rating",
+                                                                    "ratingCountV2": "1"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "92641056",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "158177854",
+                                                            "name": "Salty Regular Munch Combo",
+                                                            "category": "Match Day Combos",
+                                                            "description": "Popcorn salted regular + doritos nachos large served with cheese dip and salsa",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/14/1896a9ae-3fdc-489a-97fd-1f27e41fbf4e_a4d51861-bd80-420d-bfa6-1317f005d235.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 31800,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "92641073",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/10/14/7aff66ae-5b46-4755-b67b-fd74c6477d10_d68694c9-158a-443e-9fce-ae2284f4ff4c.jpg",
+                                            "categoryId": "63401091"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Crunchy & Loaded Nachos",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "117895240",
+                                                            "name": "Large Nachos With Cheese Dip & Salsa",
+                                                            "category": "Crunchy & Loaded Nachos",
+                                                            "description": "Crispy nachos accompanied by spicy salsa and delicious cheese dip. ",
+                                                            "imageId": "014c9c1844a93944b8e5316126a04e8d",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 16900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.9",
+                                                                    "ratingCount": "20 ratings",
+                                                                    "ratingCountV2": "20"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "66904811",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "117895226",
+                                                            "name": "Nachos + Redbull Sugarfree",
+                                                            "category": "Crunchy & Loaded Nachos",
+                                                            "description": "Large crispy nachos paired with red bull sugar free",
+                                                            "imageId": "78dc1211faeb17974428942f406cb2f5",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 33900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "66904820",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "117895228",
+                                                            "name": "Nachos + Redbull",
+                                                            "category": "Crunchy & Loaded Nachos",
+                                                            "description": "Large crispy nachos paired with red bull for an extra kick. ",
+                                                            "imageId": "b8fbe2f71e8de8bba9f252505ae31023",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 33900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "5.0",
+                                                                    "ratingCount": "1 rating",
+                                                                    "ratingCountV2": "1"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "66904819",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "014c9c1844a93944b8e5316126a04e8d",
+                                            "categoryId": "56460517"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 12821019000149"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "Delights by INOX",
+                                            "area": "Taltala",
+                                            "completeAddress": "INOX Leisure Limited , 5 Jawaharlal Nehru Road, Kolkata - 700013"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "4ae75965-db12-428b-8aa1-8c54efbd2bff",
+    "sid": "qcg8a59ffda-570c-407a-9da9-908586baa",
+    "deviceId": "8564217e-339b-5767-3c1c-0555631225a1",
+    "csrfToken": "kewX0xutDGOr-xnWumsGYeKIoKMYOkyUq173njSg"
+}

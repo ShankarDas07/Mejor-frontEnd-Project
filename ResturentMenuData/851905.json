@@ -1,0 +1,2336 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                        "text": "Wow! Kulfi",
+                        "headerStyling": {
+                            "textColor": "text_Highest_Emphasis",
+                            "textVariant": "header_H3_Black"
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+                        "tabs": [
+                            {
+                                "id": "Order Online",
+                                "title": "Order Online"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "937299",
+                            "name": "Wow! Kulfi",
+                            "city": "Kolkata",
+                            "slugs": {
+                                "restaurant": "wow-kulfi-raja-bazar-burrabazar",
+                                "city": "kolkata"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/19/2cd84230-fa1b-495f-91d4-ca7a33015606_937299.jpg",
+                            "locality": "Raja Bazar",
+                            "areaName": "Sealdah",
+                            "costForTwo": "12000",
+                            "costForTwoMessage": "₹120 for two",
+                            "cuisines": [
+                                "Ice Cream",
+                                "Desserts"
+                            ],
+                            "avgRating": 4.5,
+                            "veg": true,
+                            "feeDetails": {
+                                "restaurantId": "937299",
+                                "fees": [
+                                    {}
+                                ]
+                            },
+                            "parentId": "501088",
+                            "avgRatingString": "4.5",
+                            "totalRatingsString": "104 ratings",
+                            "sla": {
+                                "restaurantId": "937299",
+                                "deliveryTime": 27,
+                                "minDeliveryTime": 25,
+                                "maxDeliveryTime": 30,
+                                "lastMileTravel": 0.7,
+                                "serviceability": "SERVICEABLE",
+                                "stressFactor": 1,
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                "zoneId": 178,
+                                "slaString": "25-30 MINS",
+                                "lastMileTravelString": "0.7 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2026-03-22 03:00:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "header": "Get items under 59",
+                                "shortDescriptionList": [
+                                    {
+                                        "discountType": "BXGY",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Get items under 59",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "discountType": "BXGY",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Get items under 59",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "wow-kulfi-raja-bazar-burrabazar",
+                            "multiOutlet": true,
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "Sealdah, Coach in 02, GS Coaches(ICF) Shop no.1, Sealdah Railway Station, Eastern Railway, Pin-700014, West Bengal, Sealdah, Eastern Railway, 700136"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "Ice Cream,Desserts"
+                                }
+                            ],
+                            "totalRatings": 104,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "Get items under 59",
+                                "shortDescriptionList": [
+                                    {
+                                        "discountType": "BXGY",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Get items under 59",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "discountType": "BXGY",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Get items under 59",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "couponDetailsCta": "View coupon details"
+                            },
+                            "type": "F",
+                            "nudgeBanners": [
+                                {
+                                    "priority": 3,
+                                    "discountInfo": {
+                                        "discountType": "FinalPrice",
+                                        "value": 90
+                                    },
+                                    "unlockedMessage": "Deal of the Day unlocked!",
+                                    "minItemCount": 1,
+                                    "maxItemCount": 1,
+                                    "type": "SILD",
+                                    "nudgeTagInfo": {
+                                        "title": "Deal of the Day",
+                                        "fontName": "FONT_NAME_CONDENSED_BOLD"
+                                    },
+                                    "logoCtx": {},
+                                    "movComputationType": "MOV_COMPUTATION_TYPE_DISCOUNTED_PRICE"
+                                }
+                            ],
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/937299"
+                            },
+                            "ratingSlab": "RATING_SLAB_5",
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "hasBestsellerItems": true,
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "22.56635535,88.37076475",
+                            "backgroundImageOverlayInfo": {},
+                            "featuredSectionInfo": {},
+                            "requestContexts": [
+                                "enable_ecosaver",
+                                "99store"
+                            ]
+                        },
+                        "analytics": {}
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 5,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "scrollBar": {
+                                "scrollThumbColor": "#E46D47",
+                                "scrollTrackColor": "#e4e4e4",
+                                "width": 54,
+                                "height": 4,
+                                "scrollStyling": {
+                                    "padding": {
+                                        "top": 20,
+                                        "bottom": 20
+                                    }
+                                }
+                            }
+                        },
+                        "id": "offerCollectionWidget",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "BUY 1 GET 1 FREE",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "6f916117-6667-4038-94fd-df37c76e8858"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE BUY1GET1",
+                                            "description": "ON SELECT ITEMS",
+                                            "offerType": "offers",
+                                            "restId": "937299",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE BUY1GET1"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "ITEMS AT ₹59",
+                                            "offerTag": "DEAL OF DAY",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "c1fc4412-3b09-4e85-a16a-022b5a8fe6b8"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "description": "ON SELECT ITEMS |",
+                                            "offerType": "offers",
+                                            "restId": "937299",
+                                            "offerLogo": "offers/deal-of-day",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹150 OFF",
+                                            "offerTag": "FLAT DEAL",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "ec93d5c7-ecd1-4463-addc-845453131197"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE FLAT150",
+                                            "description": "ABOVE ₹349",
+                                            "offerType": "offers",
+                                            "restId": "937299",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE FLAT150"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹175 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "260af1ea-0c63-46f2-a25a-ccf1edaa041a"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE FLAT175",
+                                            "description": "ABOVE ₹399",
+                                            "offerType": "offers",
+                                            "restId": "937299",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE FLAT175"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹300 OFF",
+                                            "offerTag": "DEFAULT",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "9dde75a6-7a83-4dce-883f-67c06c40c1fb"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE FLAT300",
+                                            "description": "ABOVE ₹899",
+                                            "offerType": "offers",
+                                            "restId": "937299",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE FLAT300"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                },
+                                "loyaltyDiscoverPresentationInfo": {
+                                    "logoCtx": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuTab",
+                        "tabs": [
+                            {
+                                "id": "REGULAR",
+                                "title": "Full Menu",
+                                "selected": true,
+                                "analytics": {},
+                                "selectedImage": "v1594205104/fullMenuActive_qcsdzt.png",
+                                "unselectedImage": "v1594205107/fullMenuInactive_fbdtp2.png"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "isPureVeg": true,
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "offersFilter": {
+                                                "attributes": {
+                                                    "displayText": "Buy 1 Get 1"
+                                                }
+                                            },
+                                            "topRatedFilter": {
+                                                "attributes": {
+                                                    "displayText": "Ratings 4.0+"
+                                                }
+                                            },
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            },
+                                            "vegFilter": {
+                                                "attributes": {
+                                                    "displayText": "VEG"
+                                                }
+                                            },
+                                            "nonvegFilter": {
+                                                "attributes": {
+                                                    "displayText": "NONVEG"
+                                                }
+                                            }
+                                        },
+                                        "relevance": {
+                                            "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                            "sectionId": "MENU_FILTER_TOGGLE"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuCarousel",
+                                            "title": "Top Picks",
+                                            "carousel": [
+                                                {
+                                                    "type": "TopCarousel",
+                                                    "subtype": "image",
+                                                    "bannerId": "3303048",
+                                                    "creativeId": "TopPicks/SKKP",
+                                                    "title": "Slice Kulfi Kesar Pista (Pack of 3)",
+                                                    "description": " ",
+                                                    "fontColor": "#FFFFFF",
+                                                    "dish": {
+                                                        "info": {
+                                                            "id": "147790929",
+                                                            "name": "Slice Kulfi Kesar Pista (Pack of 3)",
+                                                            "category": "Slice Kulfi (Ice cream)",
+                                                            "description": "Serves 1 | Rich, creamy layers infused with the royal blend of saffron and pistachio in every slice.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/fd8820aa-7977-4c16-affd-9c744e7471ad_bd3cbabe-9bc0-408a-a586-e5fc797f8ec8.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 33000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "80247953"
+                                                        },
+                                                        "analytics": {},
+                                                        "restaurant": {
+                                                            "info": {
+                                                                "dishStyle": {
+                                                                    "socialMarkerStyle": [
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                                                                            "title": "Protein Rich",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "brand_proteinator_primary"
+                                                                        },
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                                                                            "title": "Bestseller",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "color_swiggy_one"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        },
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TopCarousel",
+                                                    "subtype": "image",
+                                                    "bannerId": "3303167",
+                                                    "creativeId": "TopPicks/SKM",
+                                                    "title": "Slice Kulfi Malai (Pack of 3)",
+                                                    "description": " ",
+                                                    "fontColor": "#FFFFFF",
+                                                    "dish": {
+                                                        "info": {
+                                                            "id": "147790928",
+                                                            "name": "Slice Kulfi Malai (Pack of 3)",
+                                                            "category": "Slice Kulfi (Ice cream)",
+                                                            "description": "Serves 1 | Experience the richness of Slice Kulfi Malaia creamy delight that captures the essence of pure malai in every delectable slice.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/d8e3a4d7-216b-443c-a4c6-f2858f29d4c3_6c704ae7-62d1-4f2a-8a0c-ffd7b44260d9.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 33000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "80247954"
+                                                        },
+                                                        "analytics": {},
+                                                        "restaurant": {
+                                                            "info": {
+                                                                "dishStyle": {
+                                                                    "socialMarkerStyle": [
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                                                                            "title": "Protein Rich",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "brand_proteinator_primary"
+                                                                        },
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                                                                            "title": "Bestseller",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "color_swiggy_one"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        },
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TopCarousel",
+                                                    "subtype": "image",
+                                                    "bannerId": "3303286",
+                                                    "creativeId": "TopPicks/PJS",
+                                                    "title": "Popsicles Jamun Ice cream",
+                                                    "description": " ",
+                                                    "fontColor": "#FFFFFF",
+                                                    "dish": {
+                                                        "info": {
+                                                            "id": "147790918",
+                                                            "name": "Popsicles Jamun Ice cream",
+                                                            "category": "Popsicle Sorbet  Icecream",
+                                                            "description": "Serves 1 | Experience the bold burst of Jamun in every bite. Our Jamun Popsicle is a unique and refreshing twist on traditional treats.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/4062bb6e-e0f0-4f9f-9436-0ca8a9afb1cb_ad1950fc-e80f-4840-a7d4-c0cf247a8aa4.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 13000,
+                                                            "finalPrice": 9000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "e586bdfe-fa58-4a80-9561-536735b9c4e3"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "103108815"
+                                                        },
+                                                        "analytics": {},
+                                                        "restaurant": {
+                                                            "info": {
+                                                                "dishStyle": {
+                                                                    "socialMarkerStyle": [
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                                                                            "title": "Protein Rich",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "brand_proteinator_primary"
+                                                                        },
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                                                                            "title": "Bestseller",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "color_swiggy_one"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        },
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TopCarousel",
+                                                    "subtype": "image",
+                                                    "bannerId": "5773719",
+                                                    "creativeId": "TopPicks/MaSKL",
+                                                    "title": "Malai Stick Kulfi Large",
+                                                    "description": "  ",
+                                                    "fontColor": "#FFFFFF",
+                                                    "dish": {
+                                                        "info": {
+                                                            "id": "147790914",
+                                                            "name": "Malai Stick Kulfi Large",
+                                                            "category": "Dessert",
+                                                            "description": "Serves 1 | Classic Malai goodness on a stick  rich, creamy, and simply irresistible. Indulge in the timeless delight of our Malai Kulfi!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/8a78ae8e-4b76-4d2b-bf6c-4f1e697f3c68_80548174-26db-4271-a8e5-902a24fba192.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9900,
+                                                            "finalPrice": 5900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "isBestseller": true,
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "c1fc4412-3b09-4e85-a16a-022b5a8fe6b8"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "103108808"
+                                                        },
+                                                        "analytics": {},
+                                                        "restaurant": {
+                                                            "info": {
+                                                                "dishStyle": {
+                                                                    "socialMarkerStyle": [
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                                                                            "title": "Protein Rich",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "brand_proteinator_primary"
+                                                                        },
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                                                                            "title": "Bestseller",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "color_swiggy_one"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        },
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TopCarousel",
+                                                    "subtype": "image",
+                                                    "bannerId": "3303397",
+                                                    "creativeId": "TopPicks/PBCh",
+                                                    "title": "Belgium Chocolate Popsicles Chocolate Ice cream",
+                                                    "description": " ",
+                                                    "fontColor": "#FFFFFF",
+                                                    "dish": {
+                                                        "info": {
+                                                            "id": "147790921",
+                                                            "name": "Belgium Chocolate Popsicles Chocolate Ice cream",
+                                                            "category": "Popsicle Chocolate Icecream",
+                                                            "description": "Serves 1 | The velvety goodness of Belgian Chocolate. Our Belgium Chocolate Popsicle is a decadent treat for chocolate lovers.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/1c0fdf4d-6e17-4ca9-b454-68c871fcb6e6_b8d12ad2-2be6-48da-a469-25a49bde4cba.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 16000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "103108803"
+                                                        },
+                                                        "analytics": {},
+                                                        "restaurant": {
+                                                            "info": {
+                                                                "dishStyle": {
+                                                                    "socialMarkerStyle": [
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                                                                            "title": "Protein Rich",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "brand_proteinator_primary"
+                                                                        },
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                                                                            "title": "Bestseller",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "color_swiggy_one"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        },
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TopCarousel",
+                                                    "subtype": "image",
+                                                    "bannerId": "5773676",
+                                                    "creativeId": "TopPicks/TOSKL",
+                                                    "title": "Three In One  Stick Kulfi Large",
+                                                    "description": "  ",
+                                                    "fontColor": "#FFFFFF",
+                                                    "dish": {
+                                                        "info": {
+                                                            "id": "147790925",
+                                                            "name": "Three In One  Stick Kulfi Large",
+                                                            "category": "Dessert",
+                                                            "description": "Serves 1 | Indulge in Stick Kulfi Three in One, featuring the divine trio of Malai, Kesar, and Pista. A rich, creamy delight awaits! Per Serving: Calories 225.58kcal, Total Fat 9.44g.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/c3d1738a-2c8c-4766-89de-87a725f3f1ba_16b97631-62ba-4c41-8e17-30466d218fb8.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "Buy 1 Get 1",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "B1G1"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "B1G1",
+                                                            "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                                                            "isBestseller": true,
+                                                            "itemPriceStrikeOff": true,
+                                                            "offerIds": [
+                                                                "6f916117-6667-4038-94fd-df37c76e8858"
+                                                            ],
+                                                            "parentId": "103108820"
+                                                        },
+                                                        "analytics": {},
+                                                        "restaurant": {
+                                                            "info": {
+                                                                "dishStyle": {
+                                                                    "socialMarkerStyle": [
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                                                                            "title": "Protein Rich",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "brand_proteinator_primary"
+                                                                        },
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                                                                            "title": "Bestseller",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "color_swiggy_one"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        },
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TopCarousel",
+                                                    "subtype": "image",
+                                                    "bannerId": "3303634",
+                                                    "creativeId": "TopPicks/PLBi",
+                                                    "title": "Popsicles Lotus Ice cream",
+                                                    "description": " ",
+                                                    "fontColor": "#FFFFFF",
+                                                    "dish": {
+                                                        "info": {
+                                                            "id": "147790927",
+                                                            "name": "Popsicles Lotus Ice cream",
+                                                            "category": "Popsicle Regular  Icecream",
+                                                            "description": "Serves 1 | Our Popsicle encapsulates the rich, caramelized notes of Biscoff, creating a blissful, creamy experience on a stick. Per Serving: Calories 225.58kcal.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/739e764e-00a1-4216-b048-4e499025a44a_7c7f52f5-e4a6-41f9-8d51-13343d2d575b.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 13000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "103108816"
+                                                        },
+                                                        "analytics": {},
+                                                        "restaurant": {
+                                                            "info": {
+                                                                "dishStyle": {
+                                                                    "socialMarkerStyle": [
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                                                                            "title": "Protein Rich",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "brand_proteinator_primary"
+                                                                        },
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                                                                            "title": "Bestseller",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "color_swiggy_one"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        },
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TopCarousel",
+                                                    "subtype": "image",
+                                                    "bannerId": "3303801",
+                                                    "creativeId": "TopPicks/SKPn",
+                                                    "title": "Paan  Stick Kulfi Large",
+                                                    "description": " ",
+                                                    "fontColor": "#FFFFFF",
+                                                    "dish": {
+                                                        "info": {
+                                                            "id": "147790923",
+                                                            "name": "Paan  Stick Kulfi Large",
+                                                            "category": "Dessert",
+                                                            "description": "Serves 1 | Savor the post-meal tradition with our Meetha Paan. All-natural delight in a stick to enjoy the refreshing blend of Paan, Saunf and Tutti-Frutti. Per Serving: Calories 225.58kcal, Total Fat 9.44g.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/88a1dca3-7535-4940-8df1-31ec6f78771e_fa37870a-502e-48d0-b9eb-6f6cc5484e18.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9900,
+                                                            "finalPrice": 5900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "c1fc4412-3b09-4e85-a16a-022b5a8fe6b8"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "103108813"
+                                                        },
+                                                        "analytics": {},
+                                                        "restaurant": {
+                                                            "info": {
+                                                                "dishStyle": {
+                                                                    "socialMarkerStyle": [
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                                                                            "title": "Protein Rich",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "brand_proteinator_primary"
+                                                                        },
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                                                                            "title": "Bestseller",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "color_swiggy_one"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        },
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Buy 1 Get 1 Free",
+                                            "subtitle": "1 out of 2 items will be made free.",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "147790925",
+                                                            "name": "Three In One  Stick Kulfi Large",
+                                                            "category": "Dessert",
+                                                            "description": "Serves 1 | Indulge in Stick Kulfi Three in One, featuring the divine trio of Malai, Kesar, and Pista. A rich, creamy delight awaits! Per Serving: Calories 225.58kcal, Total Fat 9.44g.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/c3d1738a-2c8c-4766-89de-87a725f3f1ba_16b97631-62ba-4c41-8e17-30466d218fb8.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "Buy 1 Get 1",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "B1G1",
+                                                                    "filterIndex": 1
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "B1G1",
+                                                            "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "23 ratings",
+                                                                    "ratingCountV2": "23"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "offerIds": [
+                                                                "6f916117-6667-4038-94fd-df37c76e8858"
+                                                            ],
+                                                            "parentId": "103108820",
+                                                            "menuFilterIds": [
+                                                                "B1G1",
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {
+                                                "displayText": "Learn More",
+                                                "offerIds": [
+                                                    "6f916117-6667-4038-94fd-df37c76e8858"
+                                                ]
+                                            },
+                                            "subtitleColor": "noteworthy",
+                                            "categoryId": "17"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                                            "title": "Slice Kulfi (Ice cream)",
+                                            "categories": [
+                                                {
+                                                    "title": "Pack of 1 Slice",
+                                                    "itemCards": [
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "167183567",
+                                                                    "name": "Slice Kulfi Kesar Pista (Pack of 1)",
+                                                                    "category": "Slice Kulfi (Ice cream)",
+                                                                    "description": "Serves 1 | Serves 1- Rich, creamy layers infused with the royal blend of saffron and pistachio in every slice. Per Serving: Total Protein 6.17g",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/15/5d2053b2-2056-4f63-877e-6843e404a09e_bf22ef66-8329-4afd-b5b0-4c8068342f05.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 11000,
+                                                                    "finalPrice": 5900,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG",
+                                                                        "portionSize": "Serves 1"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "offerTags": [
+                                                                        {
+                                                                            "matchText": "SILD"
+                                                                        }
+                                                                    ],
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "itemNudgeType": "FinalPrice",
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.6",
+                                                                            "ratingCount": "15 ratings",
+                                                                            "ratingCountV2": "15"
+                                                                        },
+                                                                        "ratingsPresentationConfig": {
+                                                                            "bgGradient": {
+                                                                                "colours": [
+                                                                                    "#C8F9E5",
+                                                                                    "#00FFFFFF"
+                                                                                ],
+                                                                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                            },
+                                                                            "ratingIconColor": "rating_very_good",
+                                                                            "ratingTextColor": "rating_very_good",
+                                                                            "ratingCountTextColor": "rating_very_good",
+                                                                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                        }
+                                                                    },
+                                                                    "itemPriceStrikeOff": true,
+                                                                    "cartContext": "quick_prep",
+                                                                    "offerIds": [
+                                                                        "c1fc4412-3b09-4e85-a16a-022b5a8fe6b8"
+                                                                    ],
+                                                                    "isNinetyninestoreItem": true,
+                                                                    "parentId": "89522036",
+                                                                    "menuFilterIds": [
+                                                                        "bestseller",
+                                                                        "VEG",
+                                                                        "offer",
+                                                                        "toprated"
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "167183568",
+                                                                    "name": "Slice Kulfi Malai (Pack of 1)",
+                                                                    "category": "Slice Kulfi (Ice cream)",
+                                                                    "description": "Serves 1 | Serves 1- Experience the richness of Slice Kulfi Malai—a creamy delight that captures the essence of pure malai in every delectable slice. Per Serving: Total Protein 6.17g.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/15/651b1a82-45e8-4296-9698-9de219b44be9_0e8719b9-72ee-46c9-9c64-c9a5be36fab9.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 11000,
+                                                                    "finalPrice": 5900,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG",
+                                                                        "portionSize": "Serves 1"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "offerTags": [
+                                                                        {
+                                                                            "matchText": "SILD"
+                                                                        }
+                                                                    ],
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "itemNudgeType": "FinalPrice",
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "3.9",
+                                                                            "ratingCount": "7 ratings",
+                                                                            "ratingCountV2": "7"
+                                                                        },
+                                                                        "ratingsPresentationConfig": {
+                                                                            "bgGradient": {
+                                                                                "colours": [
+                                                                                    "#D9EFEC",
+                                                                                    "#00FFFFFF"
+                                                                                ],
+                                                                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                            },
+                                                                            "ratingIconColor": "rating_medium",
+                                                                            "ratingTextColor": "rating_medium",
+                                                                            "ratingCountTextColor": "rating_medium",
+                                                                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                        }
+                                                                    },
+                                                                    "itemPriceStrikeOff": true,
+                                                                    "cartContext": "quick_prep",
+                                                                    "offerIds": [
+                                                                        "c1fc4412-3b09-4e85-a16a-022b5a8fe6b8"
+                                                                    ],
+                                                                    "isNinetyninestoreItem": true,
+                                                                    "parentId": "89522037",
+                                                                    "menuFilterIds": [
+                                                                        "VEG",
+                                                                        "offer"
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        }
+                                                    ],
+                                                    "subtitleSuffix": {},
+                                                    "categoryId": "66756914"
+                                                },
+                                                {
+                                                    "title": "Pack of 3 Slice",
+                                                    "itemCards": [
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "147790928",
+                                                                    "name": "Slice Kulfi Malai (Pack of 3)",
+                                                                    "category": "Slice Kulfi (Ice cream)",
+                                                                    "description": "Serves 1 | Experience the richness of Slice Kulfi Malaia creamy delight that captures the essence of pure malai in every delectable slice.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/d8e3a4d7-216b-443c-a4c6-f2858f29d4c3_6c704ae7-62d1-4f2a-8a0c-ffd7b44260d9.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 33000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG",
+                                                                        "portionSize": "Serves 1"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    },
+                                                                    "itemPriceStrikeOff": true,
+                                                                    "parentId": "80247954",
+                                                                    "menuFilterIds": [
+                                                                        "VEG",
+                                                                        "offer"
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "147790929",
+                                                                    "name": "Slice Kulfi Kesar Pista (Pack of 3)",
+                                                                    "category": "Slice Kulfi (Ice cream)",
+                                                                    "description": "Serves 1 | Rich, creamy layers infused with the royal blend of saffron and pistachio in every slice.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/fd8820aa-7977-4c16-affd-9c744e7471ad_bd3cbabe-9bc0-408a-a586-e5fc797f8ec8.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 33000,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG",
+                                                                        "portionSize": "Serves 1"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    },
+                                                                    "itemPriceStrikeOff": true,
+                                                                    "parentId": "80247953",
+                                                                    "menuFilterIds": [
+                                                                        "VEG",
+                                                                        "offer"
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        }
+                                                    ],
+                                                    "subtitleSuffix": {},
+                                                    "categoryId": "66867454"
+                                                }
+                                            ],
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/9/15/5d2053b2-2056-4f63-877e-6843e404a09e_bf22ef66-8329-4afd-b5b0-4c8068342f05.png",
+                                            "categoryId": "66756913"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Popsicle Sorbet  Icecream",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "147790918",
+                                                            "name": "Popsicles Jamun Ice cream",
+                                                            "category": "Popsicle Sorbet  Icecream",
+                                                            "description": "Serves 1 | Experience the bold burst of Jamun in every bite. Our Jamun Popsicle is a unique and refreshing twist on traditional treats.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/4062bb6e-e0f0-4f9f-9436-0ca8a9afb1cb_ad1950fc-e80f-4840-a7d4-c0cf247a8aa4.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 13000,
+                                                            "finalPrice": 9000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.5",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "e586bdfe-fa58-4a80-9561-536735b9c4e3"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "103108815",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "147790920",
+                                                            "name": "Popsicles Strawberry Ice cream",
+                                                            "category": "Popsicle Sorbet  Icecream",
+                                                            "description": "Serves 1 | Cool off with Strawberry Sorbet Popsicle. A refreshing burst of fruity sweetness in every delightful bite.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/5627a9c3-cf97-409b-a166-7463d738ceeb_e43ff78f-4ba8-45b8-9d85-ed301a6dd364.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 13000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.0",
+                                                                    "ratingCount": "1 rating",
+                                                                    "ratingCountV2": "1"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "103108818",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/4062bb6e-e0f0-4f9f-9436-0ca8a9afb1cb_ad1950fc-e80f-4840-a7d4-c0cf247a8aa4.png",
+                                            "categoryId": "64368348"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Popsicle Regular  Icecream",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "147790926",
+                                                            "name": "Popsicles Mango Ice cream",
+                                                            "category": "Popsicle Regular  Icecream",
+                                                            "description": "Serves 1 | Mango lovers, rejoice! Dive into the tropical bliss of Mango Popsicle for a luscious and refreshing treat. Per Serving: Calories 225.58kcal.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/be8e5185-e8cc-4062-b103-8c63daba9969_25e4875a-7297-4ab1-9d72-172be10e0475.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 13000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.7",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#D9EFEC",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_medium",
+                                                                    "ratingTextColor": "rating_medium",
+                                                                    "ratingCountTextColor": "rating_medium",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "103108817",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "147790927",
+                                                            "name": "Popsicles Lotus Ice cream",
+                                                            "category": "Popsicle Regular  Icecream",
+                                                            "description": "Serves 1 | Our Popsicle encapsulates the rich, caramelized notes of Biscoff, creating a blissful, creamy experience on a stick. Per Serving: Calories 225.58kcal.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/739e764e-00a1-4216-b048-4e499025a44a_7c7f52f5-e4a6-41f9-8d51-13343d2d575b.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 13000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "103108816",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/be8e5185-e8cc-4062-b103-8c63daba9969_25e4875a-7297-4ab1-9d72-172be10e0475.png",
+                                            "categoryId": "61815900"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Popsicle Chocolate Icecream",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "147790916",
+                                                            "name": "Oreo Cookies & Cream Popsicles Chocolate Ice cream",
+                                                            "category": "Popsicle Chocolate Icecream",
+                                                            "description": "Serves 1 | Crunchy Oreo goodness in every bite. A delightful combination of cookies and creamy indulgence.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/862442ec-10a8-4449-b96c-cb55f492a20f_63ba7af3-1189-4d04-b07d-0072f06077e7.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 16000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.0",
+                                                                    "ratingCount": "1 rating",
+                                                                    "ratingCountV2": "1"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "103108812",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "147790921",
+                                                            "name": "Belgium Chocolate Popsicles Chocolate Ice cream",
+                                                            "category": "Popsicle Chocolate Icecream",
+                                                            "description": "Serves 1 | The velvety goodness of Belgian Chocolate. Our Belgium Chocolate Popsicle is a decadent treat for chocolate lovers.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/1c0fdf4d-6e17-4ca9-b454-68c871fcb6e6_b8d12ad2-2be6-48da-a469-25a49bde4cba.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 16000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.1",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "103108803",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "167183571",
+                                                            "name": "Dairy Milk Silk Popsicles Chocolate Ice cream",
+                                                            "category": "Popsicle Chocolate Icecream",
+                                                            "description": "Serves 1 | Indulge in the velvety richness of Dairy Milk Silk, a frozen delight beyond compare.  Per Serving: Total Protein 6.17g.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/da958f32-6e9f-44c6-bce2-21c3f86c835e_3599eb79-5dbf-41d0-879e-1b3ef6c65fee.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 16000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "103108806",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/862442ec-10a8-4449-b96c-cb55f492a20f_63ba7af3-1189-4d04-b07d-0072f06077e7.png",
+                                            "categoryId": "64368347"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                                            "title": "Dessert",
+                                            "categories": [
+                                                {
+                                                    "title": "Stick Kulfi Large",
+                                                    "itemCards": [
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "147790914",
+                                                                    "name": "Malai Stick Kulfi Large",
+                                                                    "category": "Dessert",
+                                                                    "description": "Serves 1 | Classic Malai goodness on a stick  rich, creamy, and simply irresistible. Indulge in the timeless delight of our Malai Kulfi!",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/8a78ae8e-4b76-4d2b-bf6c-4f1e697f3c68_80548174-26db-4271-a8e5-902a24fba192.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 9900,
+                                                                    "finalPrice": 5900,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG",
+                                                                        "portionSize": "Serves 1"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "offerTags": [
+                                                                        {
+                                                                            "matchText": "SILD"
+                                                                        }
+                                                                    ],
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "itemNudgeType": "FinalPrice",
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.5",
+                                                                            "ratingCount": "12 ratings",
+                                                                            "ratingCountV2": "12"
+                                                                        },
+                                                                        "ratingsPresentationConfig": {
+                                                                            "bgGradient": {
+                                                                                "colours": [
+                                                                                    "#C8F9E5",
+                                                                                    "#00FFFFFF"
+                                                                                ],
+                                                                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                            },
+                                                                            "ratingIconColor": "rating_very_good",
+                                                                            "ratingTextColor": "rating_very_good",
+                                                                            "ratingCountTextColor": "rating_very_good",
+                                                                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                        }
+                                                                    },
+                                                                    "itemPriceStrikeOff": true,
+                                                                    "cartContext": "quick_prep",
+                                                                    "offerIds": [
+                                                                        "c1fc4412-3b09-4e85-a16a-022b5a8fe6b8"
+                                                                    ],
+                                                                    "isNinetyninestoreItem": true,
+                                                                    "parentId": "103108808",
+                                                                    "menuFilterIds": [
+                                                                        "bestseller",
+                                                                        "VEG",
+                                                                        "offer",
+                                                                        "toprated"
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "147790919",
+                                                                    "name": "Shahi Gulab  Stick Kulfi Large",
+                                                                    "category": "Dessert",
+                                                                    "description": "Serves 1 | Rose-infused almond joy, a sweet symphony of floral and nutty notes in every delectable bite.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/7f64f07b-92b0-4f20-a0b1-f4cc2e319346_89268c31-540a-4a3b-a90c-5c2f6d431b22.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 9900,
+                                                                    "finalPrice": 5900,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG",
+                                                                        "portionSize": "Serves 1"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "offerTags": [
+                                                                        {
+                                                                            "matchText": "SILD"
+                                                                        }
+                                                                    ],
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "itemNudgeType": "FinalPrice",
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "5.0",
+                                                                            "ratingCount": "6 ratings",
+                                                                            "ratingCountV2": "6"
+                                                                        },
+                                                                        "ratingsPresentationConfig": {
+                                                                            "bgGradient": {
+                                                                                "colours": [
+                                                                                    "#C8F9E5",
+                                                                                    "#00FFFFFF"
+                                                                                ],
+                                                                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                            },
+                                                                            "ratingIconColor": "rating_very_good",
+                                                                            "ratingTextColor": "rating_very_good",
+                                                                            "ratingCountTextColor": "rating_very_good",
+                                                                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                        }
+                                                                    },
+                                                                    "itemPriceStrikeOff": true,
+                                                                    "cartContext": "quick_prep",
+                                                                    "offerIds": [
+                                                                        "c1fc4412-3b09-4e85-a16a-022b5a8fe6b8"
+                                                                    ],
+                                                                    "isNinetyninestoreItem": true,
+                                                                    "parentId": "103108819",
+                                                                    "menuFilterIds": [
+                                                                        "VEG",
+                                                                        "offer",
+                                                                        "toprated"
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "147790923",
+                                                                    "name": "Paan  Stick Kulfi Large",
+                                                                    "category": "Dessert",
+                                                                    "description": "Serves 1 | Savor the post-meal tradition with our Meetha Paan. All-natural delight in a stick to enjoy the refreshing blend of Paan, Saunf and Tutti-Frutti. Per Serving: Calories 225.58kcal, Total Fat 9.44g.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/88a1dca3-7535-4940-8df1-31ec6f78771e_fa37870a-502e-48d0-b9eb-6f6cc5484e18.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 9900,
+                                                                    "finalPrice": 5900,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG",
+                                                                        "portionSize": "Serves 1"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "offerTags": [
+                                                                        {
+                                                                            "matchText": "SILD"
+                                                                        }
+                                                                    ],
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "itemNudgeType": "FinalPrice",
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "5.0",
+                                                                            "ratingCount": "4 ratings",
+                                                                            "ratingCountV2": "4"
+                                                                        },
+                                                                        "ratingsPresentationConfig": {
+                                                                            "bgGradient": {
+                                                                                "colours": [
+                                                                                    "#C8F9E5",
+                                                                                    "#00FFFFFF"
+                                                                                ],
+                                                                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                            },
+                                                                            "ratingIconColor": "rating_very_good",
+                                                                            "ratingTextColor": "rating_very_good",
+                                                                            "ratingCountTextColor": "rating_very_good",
+                                                                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                        }
+                                                                    },
+                                                                    "itemPriceStrikeOff": true,
+                                                                    "cartContext": "quick_prep",
+                                                                    "offerIds": [
+                                                                        "c1fc4412-3b09-4e85-a16a-022b5a8fe6b8"
+                                                                    ],
+                                                                    "isNinetyninestoreItem": true,
+                                                                    "parentId": "103108813",
+                                                                    "menuFilterIds": [
+                                                                        "VEG",
+                                                                        "offer",
+                                                                        "toprated"
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "147790924",
+                                                                    "name": "Choco Chip  Stick Kulfi Large",
+                                                                    "category": "Dessert",
+                                                                    "description": "Serves 1 | A perfect blend of creamy kulfi and decadent chocolate chips, creating a delightful frozen treat. Per Serving: Calories 225.58kcal, Total Fat 9.44g.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/94762047-7704-4420-8e6d-388558cd0d7e_29052c3d-65c9-4c82-90a1-52d04eeb5a6d.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 9900,
+                                                                    "finalPrice": 5900,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG",
+                                                                        "portionSize": "Serves 1"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "offerTags": [
+                                                                        {
+                                                                            "matchText": "SILD"
+                                                                        }
+                                                                    ],
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "itemNudgeType": "FinalPrice",
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "5.0",
+                                                                            "ratingCount": "6 ratings",
+                                                                            "ratingCountV2": "6"
+                                                                        },
+                                                                        "ratingsPresentationConfig": {
+                                                                            "bgGradient": {
+                                                                                "colours": [
+                                                                                    "#C8F9E5",
+                                                                                    "#00FFFFFF"
+                                                                                ],
+                                                                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                            },
+                                                                            "ratingIconColor": "rating_very_good",
+                                                                            "ratingTextColor": "rating_very_good",
+                                                                            "ratingCountTextColor": "rating_very_good",
+                                                                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                        }
+                                                                    },
+                                                                    "itemPriceStrikeOff": true,
+                                                                    "cartContext": "quick_prep",
+                                                                    "offerIds": [
+                                                                        "c1fc4412-3b09-4e85-a16a-022b5a8fe6b8"
+                                                                    ],
+                                                                    "isNinetyninestoreItem": true,
+                                                                    "parentId": "103108805",
+                                                                    "menuFilterIds": [
+                                                                        "bestseller",
+                                                                        "VEG",
+                                                                        "offer",
+                                                                        "toprated"
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "147790925",
+                                                                    "name": "Three In One  Stick Kulfi Large",
+                                                                    "category": "Dessert",
+                                                                    "description": "Serves 1 | Indulge in Stick Kulfi Three in One, featuring the divine trio of Malai, Kesar, and Pista. A rich, creamy delight awaits! Per Serving: Calories 225.58kcal, Total Fat 9.44g.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/c3d1738a-2c8c-4766-89de-87a725f3f1ba_16b97631-62ba-4c41-8e17-30466d218fb8.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 9900,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG",
+                                                                        "portionSize": "Serves 1"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "offerTags": [
+                                                                        {
+                                                                            "title": "Buy 1 Get 1",
+                                                                            "textColor": "#DB6742",
+                                                                            "backgroundColor": "#FAE8E3",
+                                                                            "matchText": "B1G1"
+                                                                        }
+                                                                    ],
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "itemNudgeType": "B1G1",
+                                                                    "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.3",
+                                                                            "ratingCount": "23 ratings",
+                                                                            "ratingCountV2": "23"
+                                                                        },
+                                                                        "ratingsPresentationConfig": {
+                                                                            "bgGradient": {
+                                                                                "colours": [
+                                                                                    "#C8F9E5",
+                                                                                    "#00FFFFFF"
+                                                                                ],
+                                                                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                            },
+                                                                            "ratingIconColor": "rating_very_good",
+                                                                            "ratingTextColor": "rating_very_good",
+                                                                            "ratingCountTextColor": "rating_very_good",
+                                                                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                        }
+                                                                    },
+                                                                    "itemPriceStrikeOff": true,
+                                                                    "offerIds": [
+                                                                        "6f916117-6667-4038-94fd-df37c76e8858"
+                                                                    ],
+                                                                    "parentId": "103108820",
+                                                                    "menuFilterIds": [
+                                                                        "B1G1",
+                                                                        "bestseller",
+                                                                        "VEG",
+                                                                        "offer",
+                                                                        "toprated"
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "165560831",
+                                                                    "name": "Mango  Stick Kulfi Large",
+                                                                    "category": "Dessert",
+                                                                    "description": "Serves 1 | A burst of mango goodness in every slice. Indulge in the luscious flavor of Mango Slice Kulfi for a tropical treat.",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/85d39992-fb56-46a7-abf4-3478ca6f7a98_bc38e1d8-8f0a-48ed-9193-9c690dbd2a3f.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 9900,
+                                                                    "finalPrice": 5900,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG",
+                                                                        "portionSize": "Serves 1"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "offerTags": [
+                                                                        {
+                                                                            "matchText": "SILD"
+                                                                        }
+                                                                    ],
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "itemNudgeType": "FinalPrice",
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.7",
+                                                                            "ratingCount": "6 ratings",
+                                                                            "ratingCountV2": "6"
+                                                                        },
+                                                                        "ratingsPresentationConfig": {
+                                                                            "bgGradient": {
+                                                                                "colours": [
+                                                                                    "#C8F9E5",
+                                                                                    "#00FFFFFF"
+                                                                                ],
+                                                                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                            },
+                                                                            "ratingIconColor": "rating_very_good",
+                                                                            "ratingTextColor": "rating_very_good",
+                                                                            "ratingCountTextColor": "rating_very_good",
+                                                                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                        }
+                                                                    },
+                                                                    "itemPriceStrikeOff": true,
+                                                                    "cartContext": "quick_prep",
+                                                                    "offerIds": [
+                                                                        "c1fc4412-3b09-4e85-a16a-022b5a8fe6b8"
+                                                                    ],
+                                                                    "isNinetyninestoreItem": true,
+                                                                    "parentId": "103108810",
+                                                                    "menuFilterIds": [
+                                                                        "VEG",
+                                                                        "offer",
+                                                                        "toprated"
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        }
+                                                    ],
+                                                    "subtitleSuffix": {},
+                                                    "categoryId": "72586292"
+                                                },
+                                                {
+                                                    "title": "Dessert.",
+                                                    "itemCards": [
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "180113612",
+                                                                    "name": "Kesar Gulab Jamun [2PC]",
+                                                                    "category": "Dessert",
+                                                                    "description": "Serves 1 | Enjoy our classic Indian dessert: soft khoya balls fried to perfection, bathed in sweet syrup infused with kesar (saffron). Rich, sweet, and utterly irresistible. Per Serving: Calories 326kcal, Total Protein 6.57g (Serves 1-2) (Approx).",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/9/e52fb24d-b8ae-4c3e-8498-cb17b57657ba_7873d352-7130-42f7-9700-e980094a8a1f.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 6900,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG",
+                                                                        "portionSize": "Serves 1"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    },
+                                                                    "itemPriceStrikeOff": true,
+                                                                    "parentId": "92083206",
+                                                                    "menuFilterIds": [
+                                                                        "VEG",
+                                                                        "offer"
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "180113613",
+                                                                    "name": "Rasmalai [1PC]",
+                                                                    "category": "Dessert",
+                                                                    "description": "Serves 1 | It is soft & creamy Indian dessert made from soft cottage cheese cooked and soaked in enriched sweetened saffron milk.Per Serving: Calories 186kcal, Total Fat 8g (Serves 1) (Approx",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/9/3cae1356-0ef5-4597-865e-077495837cb2_37838084-5b64-4286-bebe-bb5aad7b8966.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 5900,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG",
+                                                                        "portionSize": "Serves 1"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.0",
+                                                                            "ratingCount": "1 rating",
+                                                                            "ratingCountV2": "1"
+                                                                        },
+                                                                        "ratingsPresentationConfig": {
+                                                                            "bgGradient": {
+                                                                                "colours": [
+                                                                                    "#C8F9E5",
+                                                                                    "#00FFFFFF"
+                                                                                ],
+                                                                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                            },
+                                                                            "ratingIconColor": "rating_very_good",
+                                                                            "ratingTextColor": "rating_very_good",
+                                                                            "ratingCountTextColor": "rating_very_good",
+                                                                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                        }
+                                                                    },
+                                                                    "itemPriceStrikeOff": true,
+                                                                    "parentId": "91697666",
+                                                                    "menuFilterIds": [
+                                                                        "VEG",
+                                                                        "offer",
+                                                                        "toprated"
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "180113614",
+                                                                    "name": "Rasmalai [2PC]",
+                                                                    "category": "Dessert",
+                                                                    "description": "Serves 1 | Ras Malai is a delectable Indian sweet made with tender cheese balls immersed in a rich, sweetened milk flavored with cardamom. It's beautifully topped with finely chopped nuts, creating a creamy and aromatic dessert that's both flavorful and visually delightful. Per Serving: Calories 186kcal, Total Protein 6g (Serves 1-2) (Approx).",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/9/5edf1494-f786-412e-9b49-3956ed61b6a1_e7458fc4-858d-46a0-90ec-eb6001fd97e8.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 9900,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG",
+                                                                        "portionSize": "Serves 1"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.0",
+                                                                            "ratingCount": "1 rating",
+                                                                            "ratingCountV2": "1"
+                                                                        },
+                                                                        "ratingsPresentationConfig": {
+                                                                            "bgGradient": {
+                                                                                "colours": [
+                                                                                    "#C8F9E5",
+                                                                                    "#00FFFFFF"
+                                                                                ],
+                                                                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                            },
+                                                                            "ratingIconColor": "rating_very_good",
+                                                                            "ratingTextColor": "rating_very_good",
+                                                                            "ratingCountTextColor": "rating_very_good",
+                                                                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                        }
+                                                                    },
+                                                                    "itemPriceStrikeOff": true,
+                                                                    "parentId": "91074701",
+                                                                    "menuFilterIds": [
+                                                                        "VEG",
+                                                                        "offer",
+                                                                        "toprated"
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "180113611",
+                                                                    "name": "Kesar Gulab Jamun [1PC]",
+                                                                    "category": "Dessert",
+                                                                    "description": "Serves 1 | Savor the essence of tradition with our soft, fried khoya balls soaked in a sweet sugary syrup infused with kesar (saffron). This classic Indian dessert offers a perfect balance of richness and sweetness in every bite.Per Serving: Calories 326kcal, Total Fat 7.50g (Serves 1) (Approx).",
+                                                                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/9/dda34b46-b7c6-4d43-aa25-9169b205f9fb_c25d960b-affb-4697-ba34-57bf1e459e9e.png",
+                                                                    "inStock": 1,
+                                                                    "isVeg": 1,
+                                                                    "price": 3900,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "VEG",
+                                                                        "portionSize": "Serves 1"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {}
+                                                                    },
+                                                                    "itemPriceStrikeOff": true,
+                                                                    "parentId": "91310665",
+                                                                    "menuFilterIds": [
+                                                                        "VEG",
+                                                                        "offer"
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        }
+                                                    ],
+                                                    "subtitleSuffix": {},
+                                                    "categoryId": "66527182"
+                                                }
+                                            ],
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/8a78ae8e-4b76-4d2b-bf6c-4f1e697f3c68_80548174-26db-4271-a8e5-902a24fba192.png",
+                                            "categoryId": "66527181"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 10024904000094"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "Wow! Kulfi",
+                                            "area": "Sealdah",
+                                            "completeAddress": "Sealdah, Coach in 02, GS Coaches(ICF) Shop no.1, Sealdah Railway Station, Eastern Railway, Pin-700014, West Bengal, Sealdah, Eastern Railway, 700136"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "4ae75965-db12-428b-8aa1-8c54efbd2bff",
+    "sid": "qcg8a59ffda-570c-407a-9da9-908586baa",
+    "deviceId": "8564217e-339b-5767-3c1c-0555631225a1",
+    "csrfToken": "w4b48tvgucXO-J0pDhwPlqNsFafFBJOBXazMQwC8"
+}
