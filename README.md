@@ -517,7 +517,105 @@ The app will open at `http://localhost:3000` in your browser.
 
 ---
 
-## 12. Future Improvements
+
+## 12. Deployment
+
+The project is deployed on Netlify using GitHub integration for continuous deployment.
+
+### 🔗 Live Site
+
+https://swiggyshankardas.netlify.app
+
+---
+
+### ⚙️ Deployment Setup
+
+* Connected GitHub repository to Netlify
+* Configured build settings for Parcel:
+
+```bash
+Build Command: npx parcel build Src/index.html
+Publish Directory: dist
+```
+
+* Every push to the `main` branch triggers an automatic deployment
+
+---
+
+### 🐞 Problems Faced & Solutions
+
+#### 1. ❌ 404 Error on Page Refresh (SPA Routing Issue)
+
+* When refreshing a route like `/restaurant/:id`, Netlify returned a **404 Page Not Found**
+* This happens because Netlify tries to find a physical file for that route instead of letting React handle it
+
+✅ **Solution:**
+
+* Added `netlify.toml` file with redirect rules:
+
+```toml
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+```
+
+👉 This ensures all routes are redirected to `index.html`, allowing React Router to handle navigation.
+
+---
+
+#### 2. ❌ Incorrect Build Configuration
+
+* Initially, Netlify was not aware of the correct entry file and output directory
+* This caused routing and asset issues
+
+✅ **Solution:**
+
+* Set correct build command:
+
+  ```
+  npx parcel build Src/index.html
+  ```
+* Set publish directory:
+
+  ```
+  dist
+  ```
+
+---
+
+#### 3. ❌ Redirect Rules Not Working
+
+* `_redirects` file was initially placed in the wrong location
+* Netlify build (Parcel) did not include it in the final build output
+
+✅ **Solution:**
+
+* Switched to using `netlify.toml` instead of `_redirects`
+* This ensures reliable routing configuration at the platform level
+
+---
+
+### ✅ Final Result
+
+* All routes work correctly
+* Page refresh works on both mobile and desktop
+* No more 404 errors
+* Fully functional SPA deployment
+
+---
+
+### 💡 Key Learning
+
+* Understanding how **SPA routing works in static hosting environments**
+* Importance of correct **build configuration**
+* Using **Netlify redirects to handle client-side routing**
+
+---
+
+
+---
+## 13. Future Improvements
 
 | Feature | Description |
 |---|---|
