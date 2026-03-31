@@ -610,8 +610,8 @@ Publish Directory: dist
 * Understanding how **SPA routing works in static hosting environments**
 * Importance of correct **build configuration**
 * Using **Netlify redirects to handle client-side routing**
+* interview line : “I resolved SPA routing issues in Netlify by configuring redirects using netlify.toml and setting proper Parcel build settings.”
 
----
 
 
 ---
