@@ -13,7 +13,7 @@ export default function Search() {
         async function fetchData() {
             const response = await fetch(`https://raw.githubusercontent.com/ShankarDas07/Mejor-frontEnd-Project/main/ResturentMenuData/${id}.json`);
             const data = await response.json();
-            const tempData = data.data?.cards[5]?.groupedCard?.cardGroupMap?.REGULAR?.cards;
+            const tempData = data.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards;
             const filterData = tempData?.filter((items) => "title" in items?.card?.card);
             
             // সব dishes এক array তে নিয়ে আসো
