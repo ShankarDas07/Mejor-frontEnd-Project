@@ -18,7 +18,7 @@ const cart = createSlice({
         },
         decrementItems:(state,actions)=>{ // actions না লিখলে কী হতো? যদি action না লিখো: addItems:(state)=>{.........}  তাহলে reducer payload পাবে না। মানে: items data পাবে না
             const element = state.itemsObj.find(item=> item.id===actions.payload.id);
-            if(element>1){
+            if(element.quantity > 1){
                 element.quantity -= 1;  //quantity declare না করেও কেন কাজ করছে? কারণ JavaScript object dynamic। তুমি যেকোনো property add করতে পারো। ধর payload হলো:--> {  id: 10, name: "Burger" }   push করার সময় এটা হবে:--> {  id: 10,  name: "Burger",   quantity: 1  }  মানে cart এ item এর quantity track করার জন্য।
             }
             else{
