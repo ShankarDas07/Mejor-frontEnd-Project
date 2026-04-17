@@ -1,4 +1,4 @@
-# 🍔 Swiggy Clone — Full Stack Frontend Project
+# 🍔 Food Delivery App — Full Stack Frontend Project
 
 > A pixel-perfect, feature-rich clone of Swiggy built with React.js — showcasing real-world frontend engineering skills including Redux state management, client-side routing, API integration, shimmer loading UX, and dynamic filtering.
 
@@ -24,9 +24,9 @@
 
 ## 1. Project Overview
 
-This is a **frontend clone of Swiggy** — India's leading food delivery platform — built entirely in **React.js**. The project replicates the core user experience of Swiggy including browsing restaurants, viewing menus, filtering food, searching within a restaurant, adding items to cart, and viewing a detailed bill summary.
+This is a **frontend Food Delivery App ** — India's leading food delivery platform — built entirely in **React.js**. The project replicates the core user experience of Swiggy including browsing restaurants, viewing menus, filtering food, searching within a restaurant, adding items to cart, and viewing a detailed bill summary.
 
-### What it replicates from real Swiggy
+### What it replicates from real Food Delivery App
 
 - The **Home page** with food category options, grocery options, and Dineout restaurant cards
 - The **Restaurant listing page** with live-looking cards showing ratings, delivery time, and cuisines
@@ -54,7 +54,7 @@ This is a **frontend clone of Swiggy** — India's leading food delivery platfor
 | **JavaScript (ES6+)** | Async/await, destructuring, optional chaining, array methods |
 | **GitHub Raw JSON** | Static JSON files hosted on GitHub act as a mock API (Swiggy's real API is CORS-blocked) |
 
-### Why GitHub JSON instead of Swiggy's real API?
+### Why GitHub JSON instead of Food Delivery App real API?
 
 Swiggy's real API (`swiggy.com/dapi/...`) is **CORS-blocked** in browser environments. To work around this without a backend, the real API responses were captured, saved as JSON files, and uploaded to GitHub. The app fetches these files using `fetch()` — simulating real API calls perfectly.
 
@@ -63,7 +63,7 @@ Swiggy's real API (`swiggy.com/dapi/...`) is **CORS-blocked** in browser environ
 ## 3. Features
 
 ### 🏠 Home Page (`Home.js`)
-- Full **Swiggy-style header** with orange background, hero image decorations, delivery location input, and search bar
+- Full ** A modern food delivery -style header** with orange background, hero image decorations, delivery location input, and search bar
 - **FoodOption section** — Swiggy Instamart grocery category images fetched from static data
 - **GroceryOption section** — Horizontally scrollable food option cards
 - **RestaurantsDineout section** — Horizontally scrollable dineout restaurant cards with offer badges and bank offer UI
